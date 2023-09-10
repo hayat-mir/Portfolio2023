@@ -4,7 +4,7 @@
 
 ## Website
 
-[https://hayatportfolio.vercel.app/]
+https://hayatportfolio.vercel.app/
 
 ## Features
 
