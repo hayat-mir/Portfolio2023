@@ -76,7 +76,7 @@ const Navbar = (props) => {
         >
           HM.
         </Typography>
-        // <DarkModeSwitch {...props} />
+        /* <DarkModeSwitch {...props} />*/
         {navLinks.map((item, index) => (
           <Link
             className={`${classes.navlink} ${classes.hideLinks}`}
