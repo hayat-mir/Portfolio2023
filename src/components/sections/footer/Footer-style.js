@@ -13,7 +13,7 @@ export const useStyles = makeStyles((theme) => ({
   icons: {
     width: "8%",
     [theme.breakpoints.down("md")]: {
-      width: "50%",
+      width: "20%",
     },
     margin: "1rem auto !important",
     "& svg": {
