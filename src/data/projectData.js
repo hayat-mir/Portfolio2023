@@ -26,8 +26,7 @@ export const projects = [
     id: 2,
     title: "Todo List",
     description:
-      "
-A to-do list app is a digital tool designed to help individuals organize, prioritize, and manage their tasks, goals, and activities. It serves as a convenient and efficient way to keep track of what needs to be done, both in personal and professional life. ",
+      "A to-do list app is a digital tool designed to help individuals organize, prioritize, and manage their tasks, goals, and activities. It serves as a convenient and efficient way to keep track of what needs to be done, both in personal and professional life.",
     tech: ["JavaScript", "ReactJS", "Material-UI", "Unsplash API"],
     img: [
       "https://plus.unsplash.com/premium_photo-1684331678124-ff62c82cef7a?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D",
