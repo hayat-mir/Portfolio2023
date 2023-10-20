@@ -1,85 +1,77 @@
 export const projects = [
   {
     id: 1,
-    title: "Birthday Organizer",
+    title: "Personal Portfolio",
     description:
-      "Platform built with MERN stack for organizing birthdays by groups, and counting down to the dates. It has cool features like authentication, authorization, single-page application, responsive design, full CRUD operations & upload photos",
+      "Platform built with HTML, CSS and javaScript It has cool features like animation, single-page application, responsive design etc. ",
     tech: [
       "JavaScript",
       "ReactJS",
       "Node.js",
-      "MongoDB",
-      "Express",
-      "Redux",
       "Material-UI",
       "React Router",
-      "Bcrypt",
-      "Mongoose",
-      "Multer",
-      "JWT",
+     
     ],
     img: [
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151578/Portfolio/mobile_pilyzs.webp",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D",
       "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663152715/Portfolio/birthday-1920_ivkx4i.webp",
     ],
     links: {
-      url: "https://birthday-organizer.herokuapp.com/",
-      github: "https://github.com/hayat-mir",
-      youtube: "8yuLlZgGuRs",
+      url: "https://hayatportfolio.vercel.app/",
+      github: "https://github.com/hayat-mir/portfolio2023",
+      
     },
   },
   {
     id: 2,
-    title: "Infinite Scroll Stock Photos",
+    title: "Todo List",
     description:
-      "An image gallery that fetches data from Unsplash API. It has some awesome features like searching for images, apply filters (sort by, orientation and color) and infinite scrolling in which images keeps on loading as the user scrolls",
+      "
+A to-do list app is a digital tool designed to help individuals organize, prioritize, and manage their tasks, goals, and activities. It serves as a convenient and efficient way to keep track of what needs to be done, both in personal and professional life. ",
     tech: ["JavaScript", "ReactJS", "Material-UI", "Unsplash API"],
     img: [
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151671/Portfolio/linkedin_photo_qtbnjb.webp",
+      "https://plus.unsplash.com/premium_photo-1684331678124-ff62c82cef7a?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D",
       "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151675/Portfolio/Mobile-App-Screen-Mockups_4_t8lh7i.webp",
     ],
     links: {
-      url: "https://infinite-scroll-photos.herokuapp.com/",
-      github: "https://github.com/hayat-mir",
-      youtube: "WmdbM44LBUU",
+      url: "todolist-hayat528.vercel.app",
+      github: "https://github.com/hayat-mir/todolist",
+     
     },
   },
   {
     id: 3,
-    title: "URL Shortener",
+    title: "brand landing page",
     description:
-      "Vanilla Javascript app that shortens a long URL, tracks the number of clicks and has full responsive design",
+      "Developed with HTML,CSS and JavaScript",
     tech: [
       "JavaScript",
-      "Node.js",
-      "EJS",
+      "css",
+      "html"
       "Bootstrap",
-      "Express",
-      "MongoDB",
-      "Mongoose",
+      
     ],
     img: [
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151949/Portfolio/url-shortener-mobile-min_aoxb6v.webp",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnJhbmQlMjBsYW5kaW5nJTIwcGFnZXxlbnwwfHwwfHx8MA%3D%3D",
       "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151813/Portfolio/url-shortener_mhrgh3.webp",
     ],
     links: {
-      github: "https://github.com/hayat-mir",
-      youtube: "iIN-IuodrzM",
+      github: "https://github.com/hayat-mir/Brand-landing-page",
+    
     },
   },
   {
     id: 4,
-    title: "Music Composer Portfolio",
+    title: "Modern landing Page",
     description:
-      "A portfolio site I made for a friend who is pursuing a Bachelor of Music in Composition from The Juilliard School. The site has an admin panel, where he can change the site's content by himself",
+      "MOdern landing Page",
     tech: [
       "JavaScript",
       "ReactJS",
       "React Router",
       "Material-UI",
       "Framer Motion",
-      "Firebase",
-      "Firestore",
+      
     ],
     img: [
       "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151598/Portfolio/18334773_171-min_o0vtqc.webp",
@@ -87,8 +79,8 @@ export const projects = [
     ],
     links: {
       url: "https://todolist-hayat528.vercel.app/",
-      github: "https://github.com/roei111/Daniel-Lubin-Portfolio",
-      youtube: "Q1OABscozZM",
+      github: "https://github.com/hayat-mir",
+      
     },
   },
 ];
@@ -96,9 +88,9 @@ export const projects = [
 export const openSourceProjects = [
   {
     id: 1,
-    title: "Milan",
+    title: "Hayat",
     description:
-      "Milan aims to bring all of the various NGOs and donors under one roof to ease the burden of going to find their appropriate donors and the appropriate communities to donate to",
+      "Hayat",
     tech: [
       "JavaScript",
       "ReactJS",
@@ -109,9 +101,7 @@ export const openSourceProjects = [
       "CSS",
     ],
     img: [
-      "https://res.cloudinary.com/dq6iduc79/image/upload/v1662897192/portfolio-avif/milan_2_id8vdv.webp",
-      "https://res.cloudinary.com/dq6iduc79/image/upload/v1662896617/portfolio-avif/FireShot_Capture_072_-_Milan_-_User_Register_-_milaan.vercel.app_fqeuou.webp",
-      "https://res.cloudinary.com/dq6iduc79/image/upload/v1662896617/portfolio-avif/FireShot_Capture_071_-_Milan_-_Home_-_milaan.vercel.app_yvbaab.webp",
+     
       "https://res.cloudinary.com/dq6iduc79/image/upload/v1662896618/portfolio-avif/FireShot_Capture_070_-_Milan_-_Home_-_milaan.vercel.app_nv20hg.webp",
     ],
     links: {
