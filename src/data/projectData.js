@@ -16,6 +16,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Weather App",
+    description:
+      " real time information using api about current weather conditions like temprature,humidity,wind-speed etc for a specific location or multiple locations.",
+    tech: ["html", "CSS", "JavaScript", "ReactJS", "weather API"],
+    img: [
+      "https://plus.unsplash.com/premium_photo-1661727531522-9ef89d10ffa7?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151675/Portfolio/Mobile-App-Screen-Mockups_4_t8lh7i.webp",
+    ],
+    links: {
+      url: "https://weather-app-hayat528.vercel.app/",
+      github: "https://github.com/hayat-mir/weather-app",
+    },
+  },
+  {
+    id: 3,
     title: "Todo List",
     description:
       "A to-do list app is a digital tool designed to help individuals organize, prioritize, and manage their tasks, goals, and activities. It serves as a convenient and efficient way to keep track of what needs to be done, both in personal and professional life.",
@@ -30,7 +45,7 @@ export const projects = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: "brand landing page",
     description: "Developed with HTML,CSS and JavaScript",
     tech: ["JavaScript", "css", "html", "Bootstrap"],
@@ -44,7 +59,7 @@ export const projects = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: "Modern landing Page",
     description: "MOdern landing Page",
     tech: [
