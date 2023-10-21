@@ -17,6 +17,6 @@ export const useStyles = makeStyles((theme) => ({
   },
   listIcon: {
     marginTop: "0.1rem !important",
-    minWidth: "35px !important",
+    minWidth: "5px !important",
   },
 }));
