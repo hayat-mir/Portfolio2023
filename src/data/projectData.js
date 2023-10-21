@@ -22,7 +22,7 @@ export const projects = [
     tech: ["html", "CSS", "JavaScript", "ReactJS", "weather API"],
     img: [
       "https://plus.unsplash.com/premium_photo-1661727531522-9ef89d10ffa7?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151675/Portfolio/Mobile-App-Screen-Mockups_4_t8lh7i.webp",
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D",
     ],
     links: {
       url: "https://weather-app-hayat528.vercel.app/",
@@ -37,7 +37,7 @@ export const projects = [
     tech: ["JavaScript", "ReactJS", "Material-UI", "Unsplash API"],
     img: [
       "https://plus.unsplash.com/premium_photo-1684331678124-ff62c82cef7a?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D",
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151675/Portfolio/Mobile-App-Screen-Mockups_4_t8lh7i.webp",
+      "https://plus.unsplash.com/premium_photo-1661963783275-dff88a0296f6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D",
     ],
     links: {
       url: "https://todolist-hayat528.vercel.app/",
@@ -51,7 +51,7 @@ export const projects = [
     tech: ["JavaScript", "css", "html", "Bootstrap"],
     img: [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnJhbmQlMjBsYW5kaW5nJTIwcGFnZXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151813/Portfolio/url-shortener_mhrgh3.webp",
+      "https://images.unsplash.com/photo-1610879068855-4189e55be5c6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnJhbmQlMjBsYW5kaW5nJTIwcGFnZSUyMHdpdGglMjB0ZXh0fGVufDB8fDB8fHww",
     ],
     links: {
       url: "https://brand-landing-page-alpha.vercel.app/",
@@ -70,8 +70,8 @@ export const projects = [
       "Framer Motion",
     ],
     img: [
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151598/Portfolio/18334773_171-min_o0vtqc.webp",
-      "https://res.cloudinary.com/dq6iduc79/image/upload/c_scale,h_1080,w_1920/v1663151582/Portfolio/bohetnbuoauuu_pfiaix.webp",
+      "https://images.unsplash.com/photo-1569348642938-46517ef6f177?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b2N0b2JlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1603616678867-1fa182a9b02b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG9jdG9iZXJ8ZW58MHx8MHx8fDA%3D",
     ],
     links: {
       url: "https://hayatportfolio.vercel.app/",
@@ -95,7 +95,7 @@ export const openSourceProjects = [
       "CSS",
     ],
     img: [
-      "https://res.cloudinary.com/dq6iduc79/image/upload/v1662896618/portfolio-avif/FireShot_Capture_070_-_Milan_-_Home_-_milaan.vercel.app_nv20hg.webp",
+      "https://plus.unsplash.com/premium_photo-1669682926208-80f888f6632e?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2N0b2JlcnxlbnwwfHwwfHx8MA%3D%3D",
     ],
     links: {
       url: "https://hayatportfolio.vercel.app/",
