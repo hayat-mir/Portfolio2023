@@ -95,7 +95,7 @@ export const openSourceProjects = [
       "CSS",
     ],
     img: [
-      "https://plus.unsplash.com/premium_photo-1669682926208-80f888f6632e?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2N0b2JlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHF1b3Rlc3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     links: {
       url: "https://hayatportfolio.vercel.app/",
