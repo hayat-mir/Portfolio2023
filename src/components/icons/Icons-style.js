@@ -6,6 +6,7 @@ export const useStyles = makeStyles((theme) => ({
     width: "10%",
     justifyContent: "space-between",
     alignSelf: "flex-start",
+    gap: "0.4rem",
     paddingInline: "0rem",
     marginTop: "1rem",
     "& svg": {
