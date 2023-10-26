@@ -1,76 +1,53 @@
 import React, { useState, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-
-const charVariants = {
-  hidden: { opacity: 1, y: -200 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0, type: "spring", stiffness: 120 },
-  },
-  exit: { opacity: 0, y: 20, rotate: 0 }, // Add an exit animation to reset the rotation
-  dropAndRotate: {
-    opacity: 1,
-    y: 100, // Move the character down
-    rotate: 360, // Rotate the character by 360 degrees
-    transition: { duration: 4 },
-  },
-
-  returnToNormal: {
-    opacity: 1,
-    y: "0", // Return to the normal position
-    rotate: 0,
-
-    // Reset rotation
-    transition: { duration: 0.5 },
-
-    y: 0,
-  },
-};
-
-const wordVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { staggerChildren: 0 } },
-};
+import { motion } from "framer-motion";
 
 function AnimationName() {
   const text = "HAYAT M.";
 
-  const [shouldRotate, setShouldRotate] = useState(false);
-  const controls = useAnimation();
+  const [step, setStep] = useState(0);
 
   useEffect(() => {
-    // After the initial animation, trigger rotation and drop
-    setTimeout(() => {
-      setShouldRotate(true);
+    const timer1 = setTimeout(() => {
+      setStep(1);
+    }, 500); // Step 1: Characters appear
 
-      // Start the dropAndRotate animation
-      controls.start("dropAndRotate").then(() => {
-        // After dropAndRotate, return to normal position
-        controls.start("returnToNormal");
-      });
-    }, (text.length - 1) * 0.1 * 600); // Delay should match the total animation duration
+    const timer2 = setTimeout(() => {
+      setStep(2);
+    }, 3200); // Step 2: Characters disappear and rotate
+
+    const timer3 = setTimeout(() => {
+      setStep(3);
+    }, 6400); // Step 3: Characters reappear and remain still
+
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+    };
   }, []);
 
   return (
     <div>
-      <motion.svg xmlns="http://www.w3.org/2000/svg" width="600" height="80">
+      <motion.svg xmlns="http://www.w3.org/2000/svg" width="600" height="90">
         {text.split("").map((char, index) => (
           <motion.text
             key={index}
-            x={index * 40} // Adjust the x position for each character
-            y="80" // Adjusted to keep the text visible initially
+            x={index * 44}
+            y="80"
             fontSize="40"
+            fontFamily="Lucida Console"
             fill="transparent"
-            stroke="black"
-            fill="black"
-            strokeWidth="6"
-            variants={charVariants}
-            initial="hidden"
-            animate={shouldRotate ? "exit" : "visible"} // Rotate after initial animation
-            exit="exit" // Ensure exit animation resets the rotation
-            custom={index}
-            animate={controls}
+            stroke="#2F4F4F"
+            strokeWidth="3"
+            initial={{ opacity: 0, y: -200, rotate: 0 }}
+            animate={
+              step === 1
+                ? { opacity: 1, y: 0, rotate: 0 }
+                : step === 2
+                ? { opacity: 0, y: -50, rotate: 520 }
+                : { opacity: 1, y: 0, rotate: 0 }
+            }
+            transition={{ delay: index * 0.5 }}
           >
             {char}
           </motion.text>
