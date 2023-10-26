@@ -73,10 +73,18 @@ const Navbar = (props) => {
           variant="h5"
           color="text.primary"
           onClick={backToTop}
+          style={{
+            fontFamily: "Lucida Console",
+            fontSize: "24px",
+            fontWeight: "bold",
+            fontStyle: "oblique 40",
+            color: "black", // Change the text color to blue
+            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)", // Add a text shadow
+          }}
         >
-          HM.
+          HM
         </Typography>
-        
+
         {navLinks.map((item, index) => (
           <Link
             className={`${classes.navlink} ${classes.hideLinks}`}
