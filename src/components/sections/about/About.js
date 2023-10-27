@@ -11,7 +11,7 @@ const About = () => {
         <div>
           <Typography className={classes.aboutText}>
             Hello! I am <span className={classes.colorText}>Hayat M</span>, a
-            self-taught web developer who loves combining the worlds of
+            full stack web developer who loves combining the worlds of
             <span className={classes.colorText}> logic </span>
             and creative <span className={classes.colorText}>design </span> to
             make eye-catching, accessible, and user-friendly websites.

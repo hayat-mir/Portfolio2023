@@ -1,8 +1,12 @@
 const jobs = [
   {
-    title: "PERSONAL PROJECTS",
+    title: "WEB DEVELOPMENT",
+    company: "PERSONAL PROJECTS",
     descriptions: [
-      "Have built personal projects like <b>Personal portfolio,Weather App,todolist,mini games,Modern landing page</b> etc web applications using <b>Html</b>,<b>CSS</b>,<b>JavaScript</b>,<b>React</b>,<b>Tailwind CSS</b> ,<b>React.js</b>",
+      "Developed a full stack Uber Ride application with <b>Next.js 13</b>, <b>tailwindcss</b> ,<b>google api</b> and <b>stripe </b> and other technologies. ",
+      " Proficient in creating dynamic and responsive web applications.",
+      "Well-versed in popular frameworks such as React and Next.js.",
+      ,
     ],
   },
 ];
