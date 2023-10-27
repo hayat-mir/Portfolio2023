@@ -9,15 +9,15 @@ function AnimationName() {
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setStep(1);
-    }, 500); // Step 1: Characters appear
+    }, 2300); // Step 1: Characters appear
 
     const timer2 = setTimeout(() => {
       setStep(2);
-    }, 3200); // Step 2: Characters disappear and rotate
+    }, 4148); // Step 2: Characters disappear and rotate
 
     const timer3 = setTimeout(() => {
       setStep(3);
-    }, 6400); // Step 3: Characters reappear and remain still
+    }, 5000); // Step 3: Characters reappear and remain still
 
     return () => {
       clearTimeout(timer1);
@@ -28,26 +28,26 @@ function AnimationName() {
 
   return (
     <div>
-      <motion.svg xmlns="http://www.w3.org/2000/svg" width="600" height="90">
+      <motion.svg xmlns="http://www.w3.org/2000/svg" width="600" height="80">
         {text.split("").map((char, index) => (
           <motion.text
             key={index}
             x={index * 44}
-            y="80"
+            y="85"
             fontSize="40"
             fontFamily="Lucida Console"
             fill="transparent"
             stroke="#2F4F4F"
             strokeWidth="3"
-            initial={{ opacity: 0, y: -200, rotate: 0 }}
+            initial={{ opacity: 0, y: -1500, rotate: 520 }}
             animate={
               step === 1
-                ? { opacity: 1, y: 0, rotate: 0 }
+                ? { opacity: 1, y: -150, rotate: 180 }
                 : step === 2
-                ? { opacity: 0, y: -50, rotate: 520 }
-                : { opacity: 1, y: 0, rotate: 0 }
+                ? { opacity: 0, y: 900, rotate: 780 }
+                : { opacity: 1, y: -10, rotate: 360 }
             }
-            transition={{ delay: index * 0.5 }}
+            transition={{ delay: index * 0.3 }}
           >
             {char}
           </motion.text>
