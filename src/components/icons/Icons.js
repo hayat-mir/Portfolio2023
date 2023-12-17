@@ -5,7 +5,8 @@ import clsx from "clsx";
 import { useStyles } from "./Icons-style";
 
 const iconStyle = {
-  fill: "hsl(50, 100%, 70%)",
+  fill: "#333",
+  // fill: "hsl(50, 100%, 70%)",
 };
 const Icons = (props) => {
   const classes = useStyles();
