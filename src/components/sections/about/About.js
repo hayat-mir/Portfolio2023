@@ -10,17 +10,20 @@ const About = () => {
       <div className={classes.aboutContent}>
         <div>
           <Typography className={classes.aboutText}>
-            Hello! I am <span className={classes.colorText}>Hayat M</span>, a
-            full stack web developer who loves combining the worlds of
-            <span className={classes.colorText}> logic </span>
-            and creative <span className={classes.colorText}>design </span> to
-            make eye-catching, accessible, and user-friendly websites.
+            👋 Hello! I'm Mohammad Hayat, a data enthusiast with a passion for
+            Python programming and its applications in Data Science, Machine
+            Learning, and Deep Learning. My expertise lies in both supervised
+            and unsupervised learning techniques, as well as feature
+            engineering, math, and statistics.
           </Typography>
           <Typography className={classes.aboutText}>
-            I am a fast learner with pure love for challenges and lots of
-            motivation, with a passion to learn new technologies. In my free
-            time, I enjoy contributing to{" "}
-            <span className={classes.colorText}>open-source</span> projects.
+            💻 Proficient in utilizing essential libraries such as pandas,
+            numpy, Scikit-Learn, TensorFlow, Matplotlib, and Seaborn, I thrive
+            in turning raw data into actionable insights. Additionally, I have
+            hands-on experience with database management systems like SQL and
+            MongoDB, along with adeptness in data visualization using tools like
+            Power BI and Tableau. Let's turn data into meaningful stories
+            together! 📊✨
           </Typography>
         </div>
         <img

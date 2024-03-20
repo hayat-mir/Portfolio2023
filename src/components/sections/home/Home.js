@@ -51,7 +51,7 @@ const Home = (props) => {
           animate="visible"
           className={classes.text}
         >
-          Full-Stack Web Developer
+          AI / ML
         </Typography>
         <HomeButtons />
         <motion.div
