@@ -15,7 +15,7 @@ export const projects = [
       "https://imageio.forbes.com/blogs-images/luisakroll/files/2018/03/billionaires-forbes-full-coverage.jpg?height=640&width=640&fit=bounds",
     ],
     links: {
-      url: "https://github.com/hayat-mir/Forbes-Billionaires-Analysis",
+      url: "https://hayatmblogs.blogspot.com/2024/03/what-does-it-take-to-become-billionaire.html",
       github: "https://github.com/hayat-mir/Forbes-Billionaires-Analysis",
     },
   },
