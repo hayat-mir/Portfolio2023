@@ -1,25 +1,22 @@
 export const projects = [
   {
     id: 1,
-    title: "Uber",
+    title: "FORBES-BILLIONAIRES DATA ANALYSIS - EDA ",
     description:
-      "I've developed a feature-rich Uber clone, offering seamless ride-sharing experiences with user-friendly web app and real-time services for both riders and drivers. This project showcases my proficiency in web app development, using google api,payment gatways.",
+      "Employed Python for the analysis of data pertaining to 2700 billionaires, involving thorough data cleaning, aggregation, and visualization using matplotlib and seaborn. Produced a comprehensive report presenting the findings in a professional manner.",
     tech: [
-      "JavaScript",
-      "ReactJS",
-      "Next.js",
-      "Tailwindcss",
-      "Google Map api",
-      "stripe",
-      "React Router",
+      "Pandas",
+      "Matplotlib",
+      "seaborn",
+      "Data cleaning",
+      "Data visualisation",
     ],
     img: [
-      "https://images.unsplash.com/photo-1635783257791-3887d197d507?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHViZXIlMjB0YXhpfGVufDB8fDB8fHww",
-      "https://images.unsplash.com/photo-1514960364170-81c37ad627f1?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fHViZXIlMjB0YXhpfGVufDB8fDB8fHww",
+      "https://imageio.forbes.com/blogs-images/luisakroll/files/2018/03/billionaires-forbes-full-coverage.jpg?height=640&width=640&fit=bounds",
     ],
     links: {
-      url: "https://uber-hayat528.vercel.app/",
-      github: "https://github.com/hayat-mir/Uber",
+      url: "https://github.com/hayat-mir/Forbes-Billionaires-Analysis",
+      github: "https://github.com/hayat-mir/Forbes-Billionaires-Analysis",
     },
   },
   {
