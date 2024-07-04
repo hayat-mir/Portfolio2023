@@ -22,7 +22,9 @@ const Experience = () => {
           <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
             {job.title}
           </Typography>
+
           <Chip label={job.company} className={classes.colorText} />
+          <Chip label={job.startDate} className={classes.colorrText} />
           <Typography variant="caption" display="block" gutterBottom>
             {job.range}
           </Typography>

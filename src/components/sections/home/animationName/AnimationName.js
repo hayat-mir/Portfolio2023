@@ -2,22 +2,22 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 function AnimationName() {
-  const text = "HAYAT M.";
+  const text = "MOHAMMAD HAYAT";
 
   const [step, setStep] = useState(0);
 
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setStep(1);
-    }, 2300); // Step 1: Characters appear
+    }, 3000); // Step 1: Characters appear
 
     const timer2 = setTimeout(() => {
       setStep(2);
-    }, 4148); // Step 2: Characters disappear and rotate
+    }, 4548); // Step 2: Characters disappear and rotate
 
     const timer3 = setTimeout(() => {
       setStep(3);
-    }, 5000); // Step 3: Characters reappear and remain still
+    }, 4900); // Step 3: Characters reappear and remain still
 
     return () => {
       clearTimeout(timer1);
@@ -39,15 +39,15 @@ function AnimationName() {
             fill="transparent"
             stroke="#2F4F4F"
             strokeWidth="3"
-            initial={{ opacity: 0, y: -1500, rotate: 520 }}
+            initial={{ opacity: 0, y: -1500, rotate: 720 }}
             animate={
               step === 1
-                ? { opacity: 1, y: -150, rotate: 180 }
+                ? { opacity: 1, y: 150, rotate: 180 }
                 : step === 2
-                ? { opacity: 0, y: 900, rotate: 780 }
+                ? { opacity: 0, y: 900, rotate: 180 }
                 : { opacity: 1, y: -10, rotate: 360 }
             }
-            transition={{ delay: index * 0.3 }}
+            transition={{ delay: index * 0.2 }}
           >
             {char}
           </motion.text>

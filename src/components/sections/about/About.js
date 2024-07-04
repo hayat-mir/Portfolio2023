@@ -10,20 +10,11 @@ const About = () => {
       <div className={classes.aboutContent}>
         <div>
           <Typography className={classes.aboutText}>
-            👋 Hello! I'm Mohammad Hayat, a data enthusiast with a passion for
-            Python programming and its applications in Data Science, Machine
-            Learning, and Deep Learning. My expertise lies in both supervised
-            and unsupervised learning techniques, as well as feature
-            engineering, math, and statistics.
-          </Typography>
-          <Typography className={classes.aboutText}>
-            💻 Proficient in utilizing essential libraries such as pandas,
-            numpy, Scikit-Learn, TensorFlow, Matplotlib, and Seaborn, I thrive
-            in turning raw data into actionable insights. Additionally, I have
-            hands-on experience with database management systems like SQL and
-            MongoDB, along with adeptness in data visualization using tools like
-            Power BI and Tableau. Let's turn data into meaningful stories
-            together! 📊✨
+            👋 Hello!, I'm Mohammad Hayat, a Data Science enthusiast with
+            expertise in Python, SQL, and data visualization tools. I excel in
+            analyzing complex datasets and deriving actionable insights. I am
+            eager to leverage my analytical skills and passion for learning to
+            contribute meaningfully to the field of Data Science.📊
           </Typography>
         </div>
         <img
