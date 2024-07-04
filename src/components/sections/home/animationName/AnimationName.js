@@ -2,22 +2,22 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 function AnimationName() {
-  const text = "MOHAMMAD HAYAT";
+  const text = "HAYAT";
 
   const [step, setStep] = useState(0);
 
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setStep(1);
-    }, 3000); // Step 1: Characters appear
+    }, 1080); // Step 1: Characters appear
 
     const timer2 = setTimeout(() => {
       setStep(2);
-    }, 4548); // Step 2: Characters disappear and rotate
+    }, 1548); // Step 2: Characters disappear and rotate
 
     const timer3 = setTimeout(() => {
       setStep(3);
-    }, 4900); // Step 3: Characters reappear and remain still
+    }, 1900); // Step 3: Characters reappear and remain still
 
     return () => {
       clearTimeout(timer1);
