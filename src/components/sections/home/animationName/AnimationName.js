@@ -2,22 +2,22 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 function AnimationName() {
-  const text = "HAYAT";
+  const text = "MOHAMMAD HAYAT";
 
   const [step, setStep] = useState(0);
 
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setStep(1);
-    }, 1080); // Step 1: Characters appear
+    }, 2980); // Step 1: Characters appear
 
     const timer2 = setTimeout(() => {
       setStep(2);
-    }, 1548); // Step 2: Characters disappear and rotate
+    }, 3548); // Step 2: Characters disappear and rotate
 
     const timer3 = setTimeout(() => {
       setStep(3);
-    }, 1900); // Step 3: Characters reappear and remain still
+    }, 4900); // Step 3: Characters reappear and remain still
 
     return () => {
       clearTimeout(timer1);
@@ -32,7 +32,7 @@ function AnimationName() {
         {text.split("").map((char, index) => (
           <motion.text
             key={index}
-            x={index * 44}
+            x={index * 24}
             y="85"
             fontSize="40"
             fontFamily="Lucida Console"
