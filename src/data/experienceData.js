@@ -4,7 +4,8 @@ const jobs = [
     company: "Contechub Solutions \t",
     startDate: "April 2024 - Present",
     descriptions: [
-      "Data Analyst with hands-on experience in data collection, analysis, and visualization. Proficient in using tools like Python,powerBi, SQL, and Excel to drive actionable insights and support data-driven decision-making. Demonstrated ability to identify trends, optimize processes, and contribute to strategic business initiatives ",
+      "As a Data Analyst, I extract and aggregate data using tools like Beautiful Soup and Selenium, ensuring high accuracy through detailed cleaning and transformation. I integrate this data into CRM systems and utilize Power BI and Excel for insightful reporting and analysis. ",
+      "My responsibilities also include managing and maintaining the CRM database to support strategic decision-making and optimize customer interactions.",
     ],
   },
 
