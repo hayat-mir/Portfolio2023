@@ -9,18 +9,18 @@ export const useStyles = makeStyles((theme) => ({
     margin: "0.5rem 0.3rem",
   },
   card: {
-    margin: "2rem auto",
+    margin: "3rem auto",
     [theme.breakpoints.up("lg")]: {
       display: "flex",
       flexDirection: "row-reverse",
     },
   },
   contentWrapper: {
-    [theme.breakpoints.only("md")]:{
+    [theme.breakpoints.only("md")]: {
       width: "50%",
     },
     [theme.breakpoints.up("lg")]: {
-      minWidth: "360px",
+      minWidth: "560px",
       display: "flex",
       flexDirection: "column",
       justifyContent: "space-between",

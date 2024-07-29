@@ -13,13 +13,13 @@ export const useStyles = makeStyles((theme) => ({
     },
     "&:last-child": {
       marginTop: "0.5rem",
-    }
+    },
   },
   aboutImage: {
-    width: "100%",
+    width: "30%",
     marginTop: "1rem",
     [theme.breakpoints.only("sm")]: {
-      width: "70%",
+      width: "30%",
     },
   },
   colorText: {
@@ -32,6 +32,5 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       flexDirection: "row",
     },
-
   },
 }));

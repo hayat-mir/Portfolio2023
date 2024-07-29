@@ -1,6 +1,29 @@
 export const projects = [
   {
     id: 1,
+    title: "PLANT DISEASE PREDICTION SYSTEM  ",
+    description:
+      "Developed a robust plant disease prediction model using a Convolutional Neural Network (CNN), achieving 88.28% validation accuracy on the PlantVillage dataset. Utilized TensorFlow, Keras, and ImageDataGenerator for image preprocessing and data augmentation, resulting in effective classification across 38 disease categories.",
+    tech: [
+      "TensorFlow",
+      "Keras",
+      "Python",
+      "NumPy",
+      "Matplotlib",
+      "PIL",
+      "Google Colab",
+      "ImageDataGenerator",
+    ],
+    img: [
+      "https://earthsally.com/wp-content/uploads/2021/03/diseasebanner.jpg",
+    ],
+    links: {
+      url: "https://plant-disease-prediction-0o00.onrender.com/",
+      github: "https://github.com/hayat-mir/Plant-disease-prediction",
+    },
+  },
+  {
+    id: 2,
     title: "FORBES-BILLIONAIRES DATA ANALYSIS - EDA ",
     description:
       "Employed Python for the analysis of data pertaining to 2700 billionaires, involving thorough data cleaning, aggregation, and visualization using matplotlib and seaborn. Produced a comprehensive report presenting the findings in a professional manner.",
@@ -12,7 +35,8 @@ export const projects = [
       "Data visualisation",
     ],
     img: [
-      "https://imageio.forbes.com/blogs-images/luisakroll/files/2018/03/billionaires-forbes-full-coverage.jpg?height=640&width=640&fit=bounds",
+      "https://images.unsplash.com/photo-1516570161787-2fd917215a3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1vbmV5fGVufDB8MHwwfHx8Mg%3D%3D",
+      // "https://imageio.forbes.com/blogs-images/luisakroll/files/2018/03/billionaires-forbes-full-coverage.jpg?height=640&width=640&fit=bounds",
     ],
     links: {
       url: "https://hayatmblogs.blogspot.com/2024/03/what-does-it-take-to-become-billionaire.html",
@@ -20,7 +44,7 @@ export const projects = [
     },
   },
   {
-    id: 2,
+    id: 3,
     title: "Personal Portfolio",
     description:
       "Platform built with HTML, CSS and javaScript It has cool features like animation, single-page application, responsive design etc. ",
@@ -35,7 +59,7 @@ export const projects = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather App",
     description:
       " real time information using api about current weather conditions like temprature,humidity,wind-speed etc for a specific location or multiple locations.",
@@ -50,7 +74,7 @@ export const projects = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: "Todo List",
     description:
       "A to-do list app is a digital tool designed to help individuals organize, prioritize, and manage their tasks, goals, and activities. It serves as a convenient and efficient way to keep track of what needs to be done, both in personal and professional life.",
@@ -65,7 +89,7 @@ export const projects = [
     },
   },
   {
-    id: 5,
+    id: 6,
     title: "brand landing page",
     description: "Developed with HTML,CSS and JavaScript",
     tech: ["JavaScript", "css", "html", "Bootstrap"],
@@ -82,7 +106,7 @@ export const projects = [
 
 export const openSourceProjects = [
   {
-    id: 1,
+    id: 7,
     title: "Hayat",
     description: "Hayat",
     tech: ["JavaScript", "ReactJS", "Node.js", "React Router", "CSS"],

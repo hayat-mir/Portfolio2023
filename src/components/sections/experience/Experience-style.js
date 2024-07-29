@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   colorrText: {
     backgroundColor: `${[theme.palette.primary.light]} !important`,
-    fontWeight: "lighter",
+    fontWeight: "bold",
     marginBottom: "0.2rem",
     marginRight: "24rem",
   },
