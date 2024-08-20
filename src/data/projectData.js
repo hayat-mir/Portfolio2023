@@ -24,6 +24,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Retail-Sales-Analysis-SQL-Project ",
+    description:
+      "This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.",
+    tech: ["SQL", "EDA", "Business Analysis", "Data Cleaning"],
+    img: [
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fFJldGFpbCUyMFNhbGVzJTIwQW5hbHlzaXMlMjBTUUwlMjBQcm9qZWN0fGVufDB8fDB8fHwy",
+    ],
+    links: {
+      url: "https://github.com/hayat-mir/Retail-Sales-Analysis-SQL-Project--P1?tab=readme-ov-file#retail-sales-analysis-sql-project",
+      github:
+        "https://github.com/hayat-mir/Retail-Sales-Analysis-SQL-Project--P1",
+    },
+  },
+  {
+    id: 3,
     title: "FORBES-BILLIONAIRES DATA ANALYSIS - EDA ",
     description:
       "Employed Python for the analysis of data pertaining to 2700 billionaires, involving thorough data cleaning, aggregation, and visualization using matplotlib and seaborn. Produced a comprehensive report presenting the findings in a professional manner.",
@@ -44,7 +59,7 @@ export const projects = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: "Personal Portfolio",
     description:
       "Platform built with HTML, CSS and javaScript It has cool features like animation, single-page application, responsive design etc. ",
@@ -59,7 +74,7 @@ export const projects = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather App",
     description:
       " real time information using api about current weather conditions like temprature,humidity,wind-speed etc for a specific location or multiple locations.",
@@ -73,8 +88,9 @@ export const projects = [
       github: "https://github.com/hayat-mir/weather-app",
     },
   },
+
   {
-    id: 5,
+    id: 6,
     title: "Todo List",
     description:
       "A to-do list app is a digital tool designed to help individuals organize, prioritize, and manage their tasks, goals, and activities. It serves as a convenient and efficient way to keep track of what needs to be done, both in personal and professional life.",
@@ -89,7 +105,7 @@ export const projects = [
     },
   },
   {
-    id: 6,
+    id: 7,
     title: "brand landing page",
     description: "Developed with HTML,CSS and JavaScript",
     tech: ["JavaScript", "css", "html", "Bootstrap"],

@@ -20,7 +20,7 @@ const Icons = (props) => {
         <GitHubIcon fontSize="large" />
       </a>
       <a
-        href="https://www.linkedin.com/in/hayat-m/"
+        href="https://www.linkedin.com/in/hayatm/"
         target="_blank"
         rel="noopener noreferrer"
       >
