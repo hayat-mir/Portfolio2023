@@ -1,18 +1,29 @@
 const jobs = [
   {
-    title: "Data Analyst Intern",
-    company: "Contechub Solutions \t",
-    startDate: "April 2024 - Present",
+    title: "Data science trainer ",
+    company: "Edurup School Of Business \t",
+    startDate: "Oct 2024 - Current",
     descriptions: [
-      "As a Data Analyst, I extract and aggregate data using tools like Beautiful Soup and Selenium, ensuring high accuracy through detailed cleaning and transformation. I integrate this data into CRM systems and utilize Power BI and Excel for insightful reporting and analysis. ",
-      "My responsibilities also include managing and maintaining the CRM database to support strategic decision-making and optimize customer interactions.",
+      "Delivered comprehensive training on data science concepts, including machine learning algorithms, data preprocessing, feature engineering, and data visualization tools like Power BI and Python, to diverse groups of students and professionals. Developed hands-on projects and real-world case studies, enabling learners to apply data science techniques in practical scenarios, improving their problem-solving and analytical skills.  ",
+      "Developed hands-on projects and real-world case studies, enabling learners to apply data science techniques in practical scenarios, improving their problem-solving and analytical skills.",
+    ],
+  },
+  {
+    title: "Data Analyst ",
+    company: "Contechub Solutions \t",
+    startDate: "Mar 2023 - Aug 2024",
+    descriptions: [
+      "Data Quality and Analysis: Utilized advanced Excel techniques (VLOOKUP, INDEX/MATCH, pivot tables) to clean and analyze large datasets on builders and architects sourced from RERA sites, ensuring data accuracy for critical business insights.",
+      "Interactive Data Visualizations: Designed and maintained dynamic dashboards in Power BI, providing realtime data insights on construction trends and builder performance, empowering stakeholders with data-driven decision-making capabilities.",
+      "Database Management and SQL Analytics: Executed complex SQL queries to manage CRM databases, analyze customer interactions, and generate targeted reports, contributing to effective business strategies based on customer behavior insights. ",
+      "Automated Web Data Extraction: Leveraged Beautiful Soup for web scraping and automation, integrating regulatory data sources to enrich analyses and enhance market insights. ",
     ],
   },
 
   {
     title: "AI/ML Trainee",
     company: "LTSU",
-    startDate: "From Jan 2024 to April 2024",
+    startDate: "Oct 2022 to Feb 2023",
     descriptions: [
       "Artificial Intelligence and Big Data Analytics- Future skills in collaboration with IBM as anchor partner at Lamrin Tech Skills University.",
       "Completed 540+ hours of comprehensive training programs on AI and big data technologies ",
@@ -21,7 +32,7 @@ const jobs = [
   {
     title: "Techinical Writer",
     company: "CyberSpark",
-    startDate: "From Dec 2023 to Feb 2024",
+    startDate: "From June 2022 to sep 2022",
     descriptions: [
       "Contributed remotely as a Technical Writer at CyberSpark, engaging in a dynamic project.  ",
 
