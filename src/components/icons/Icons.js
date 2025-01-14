@@ -5,9 +5,11 @@ import clsx from "clsx";
 import { useStyles } from "./Icons-style";
 
 const iconStyle = {
-  fill: "#333",
-  // fill: "hsl(50, 100%, 70%)",
+  fill: "#0d0c0c", // Black fill color
+  stroke: "#ffffff", // White outer color
+  strokeWidth: 1.1, // Adjust the width of the outer stroke
 };
+
 const Icons = (props) => {
   const classes = useStyles();
   return (
@@ -27,7 +29,7 @@ const Icons = (props) => {
         <LinkedInIcon fontSize="large" />
       </a>
       <a
-        href="https://www.buymeacoffee.com/hayatm/e/176901"
+        href="https://www.acoffee.com/hayatm/e/176901"
         target="_blank"
         rel="noopener noreferrer"
       >

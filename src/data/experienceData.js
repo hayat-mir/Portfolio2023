@@ -11,7 +11,7 @@ const jobs = [
   {
     title: "Data Analyst ",
     company: "Contechub Solutions \t",
-    startDate: "Mar 2023 - Aug 2024",
+    startDate: "Aug 2022 - Sep 2024",
     descriptions: [
       "Data Quality and Analysis: Utilized advanced Excel techniques (VLOOKUP, INDEX/MATCH, pivot tables) to clean and analyze large datasets on builders and architects sourced from RERA sites, ensuring data accuracy for critical business insights.",
       "Interactive Data Visualizations: Designed and maintained dynamic dashboards in Power BI, providing realtime data insights on construction trends and builder performance, empowering stakeholders with data-driven decision-making capabilities.",
@@ -23,7 +23,7 @@ const jobs = [
   {
     title: "AI/ML Trainee",
     company: "LTSU",
-    startDate: "Oct 2022 to Feb 2023",
+    startDate: "Mar 2022 to July 2023",
     descriptions: [
       "Artificial Intelligence and Big Data Analytics- Future skills in collaboration with IBM as anchor partner at Lamrin Tech Skills University.",
       "Completed 540+ hours of comprehensive training programs on AI and big data technologies ",
@@ -32,7 +32,7 @@ const jobs = [
   {
     title: "Techinical Writer",
     company: "CyberSpark",
-    startDate: "From June 2022 to sep 2022",
+    startDate: "From Jan 2022 to mar 2022",
     descriptions: [
       "Contributed remotely as a Technical Writer at CyberSpark, engaging in a dynamic project.  ",
 

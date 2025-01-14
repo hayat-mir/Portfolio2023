@@ -8,7 +8,7 @@ const Footer = () => {
       <Icons iconsClassName={classes.icons} />
 
       <p className={classes.copyright}>
-        COPYRIGHT © 2024{" "}
+        COPYRIGHT © 2025{" "}
         <span className={classes.colorText}>Mohammad Hayat </span> ALL RIGHTS
         RESERVED
       </p>
